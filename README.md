@@ -20,7 +20,6 @@ This project is a full-stack application for uploading and analyzing client docu
 📁 Project Structure
 
 
-.
 ├── backend/
 │   └── main.py                     # FastAPI server and API endpoints
 ├── forms/
