@@ -18,25 +18,24 @@ This project is a full-stack application for uploading and analyzing client docu
     🧰 Tooling for document-based and general knowledge queries
 
 📁 Project Structure
-
-
 ├── backend/
-│   └── main.py                     # FastAPI server and API endpoints
+│   └── main.py                    # FastAPI server and API endpoints
 ├── forms/
-│   ├── application_form.py         # Streamlit document upload form
+│   ├── application_form.py        # Streamlit document upload form
 │   ├── db/
-│   │   └── mongoclient.py          # MongoDB client setup for form submissions
+│   │   └── mongoclient.py         # MongoDB client setup for form submissions
 │   └── utils/
-│       └── file_utils.py              # Utility functions for handling file uploads
+│       └── file_utils.py          # Utility functions for handling file uploads
 ├── frontend/
-│   └── app.py                      # Streamlit + React-based frontend UI
+│   └── app.py                     # Streamlit + React-based frontend UI
 ├── shared/
-│   ├── agent.py                    # Multi-agent AI orchestration tools
-│   └── vector.py                   # Vectorization logic using FAISS and Ollama
-├── uploads/                        # Stores locally uploaded files
-├── .env                            # Environment variable definitions
-├── requirements.txt                # Python dependencies
-└── README.md                       # Project documentation
+│   ├── agent.py                   # Multi-agent AI orchestration tools
+│   └── vector.py                  # Vectorization logic using FAISS and Ollama
+├── uploads/                       # Stores locally uploaded files
+├── .env                           # Environment variable definitions
+├── requirements.txt               # Python dependencies
+└── README.md                      # Project documentation
+
 
 
 🔧 Setup Instructions
